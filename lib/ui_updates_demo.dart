@@ -1,13 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:todo_app/demo_buttons.dart';
 import 'package:todo_app/keys/keys.dart';
 
-
-void main() {
-  runApp(const App());
-}
-
-class App extends StatelessWidget {
-  const App({super.key});
+class UIUpdatesDemo extends StatelessWidget {
+  const UIUpdatesDemo({super.key});
 
   @override
   Widget build(BuildContext context) {
